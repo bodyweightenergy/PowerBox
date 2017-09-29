@@ -1,4 +1,5 @@
 Terminal Block - 16 POS - 3.5mm pitch
-
 https://www.digikey.com/product-detail/en/phoenix-contact/1984756/277-1733-ND/950861
 
+2.54 pitch stackable pin/socket
+https://www.amazon.com/SamIdea-2-54mm-Breakaway-Arduino-Prototype/dp/B01MFC3UC8
