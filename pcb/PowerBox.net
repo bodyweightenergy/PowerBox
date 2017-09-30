@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\PowerBox\PowerBox.sch)
-    (date "9/30/2017 9:54:26 AM")
+    (date "9/30/2017 2:49:28 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -53,7 +53,7 @@
       (tstamp 59CFA5CC))
     (comp (ref J1)
       (value Screw_Terminal_01x16)
-      (footprint Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_16x3.5mm_Straight)
+      (footprint footprints:TerminalBlock_4UCON_19963_16x3.5mm_Straight_MOD)
       (libsource (lib conn) (part Screw_Terminal_01x16))
       (sheetpath (names /) (tstamps /))
       (tstamp 59CFBC18)))
