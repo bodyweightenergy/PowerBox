@@ -1,0 +1,286 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MP1584EN U1
+U 1 1 59CFA2A0
+P 4450 2800
+F 0 "U1" H 4450 2750 60  0000 C CNN
+F 1 "MP1584EN" H 4450 2850 60  0000 C CNN
+F 2 "" H 4450 2800 60  0001 C CNN
+F 3 "" H 4450 2800 60  0001 C CNN
+	1    4450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP1584EN U2
+U 1 1 59CFA40A
+P 4450 3600
+F 0 "U2" H 4450 3550 60  0000 C CNN
+F 1 "MP1584EN" H 4450 3650 60  0000 C CNN
+F 2 "" H 4450 3600 60  0001 C CNN
+F 3 "" H 4450 3600 60  0001 C CNN
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP1584EN U3
+U 1 1 59CFA461
+P 4450 4400
+F 0 "U3" H 4450 4350 60  0000 C CNN
+F 1 "MP1584EN" H 4450 4450 60  0000 C CNN
+F 2 "" H 4450 4400 60  0001 C CNN
+F 3 "" H 4450 4400 60  0001 C CNN
+	1    4450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP1584EN U4
+U 1 1 59CFA4CA
+P 6700 2800
+F 0 "U4" H 6700 2750 60  0000 C CNN
+F 1 "MP1584EN" H 6700 2850 60  0000 C CNN
+F 2 "" H 6700 2800 60  0001 C CNN
+F 3 "" H 6700 2800 60  0001 C CNN
+	1    6700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP1584EN U5
+U 1 1 59CFA555
+P 6700 3600
+F 0 "U5" H 6700 3550 60  0000 C CNN
+F 1 "MP1584EN" H 6700 3650 60  0000 C CNN
+F 2 "" H 6700 3600 60  0001 C CNN
+F 3 "" H 6700 3600 60  0001 C CNN
+	1    6700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP1584EN U6
+U 1 1 59CFA5CC
+P 6700 4400
+F 0 "U6" H 6700 4350 60  0000 C CNN
+F 1 "MP1584EN" H 6700 4450 60  0000 C CNN
+F 2 "" H 6700 4400 60  0001 C CNN
+F 3 "" H 6700 4400 60  0001 C CNN
+	1    6700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2900 3750 2900
+Wire Wire Line
+	3750 2900 3750 4600
+Wire Wire Line
+	3750 4600 3850 4600
+Wire Wire Line
+	3850 3800 3750 3800
+Connection ~ 3750 3800
+Wire Wire Line
+	3850 3000 3750 3000
+Connection ~ 3750 3000
+Wire Wire Line
+	6100 3000 6000 3000
+Wire Wire Line
+	6000 3000 6000 4600
+Wire Wire Line
+	6000 4600 6100 4600
+Wire Wire Line
+	6100 3800 6000 3800
+Connection ~ 6000 3800
+Wire Wire Line
+	3750 3250 6000 3250
+Connection ~ 6000 3250
+Connection ~ 3750 3250
+Wire Wire Line
+	3100 2800 3650 2800
+Wire Wire Line
+	3650 2600 3650 4200
+Wire Wire Line
+	3650 2600 3850 2600
+Wire Wire Line
+	3650 4200 3850 4200
+Connection ~ 3650 2800
+Wire Wire Line
+	3850 3400 3650 3400
+Connection ~ 3650 3400
+Wire Wire Line
+	3650 3150 5900 3150
+Wire Wire Line
+	5900 2600 5900 4200
+Wire Wire Line
+	5900 2600 6100 2600
+Connection ~ 3650 3150
+Wire Wire Line
+	5900 3400 6100 3400
+Connection ~ 5900 3150
+Wire Wire Line
+	5900 4200 6100 4200
+Connection ~ 5900 3400
+Wire Wire Line
+	5050 2600 5050 2300
+Wire Wire Line
+	5050 2300 3150 2300
+Wire Wire Line
+	3150 2300 3150 3000
+Wire Wire Line
+	3150 3000 3100 3000
+Wire Wire Line
+	5050 3000 5150 3000
+Wire Wire Line
+	5150 3000 5150 2200
+Wire Wire Line
+	5150 2200 3200 2200
+Wire Wire Line
+	3200 2200 3200 3100
+Wire Wire Line
+	3200 3100 3100 3100
+Wire Wire Line
+	3100 3200 5050 3200
+Wire Wire Line
+	5050 3200 5050 3400
+Wire Wire Line
+	5050 3800 5050 3950
+Wire Wire Line
+	5050 3950 3600 3950
+Wire Wire Line
+	3600 3950 3600 3300
+Wire Wire Line
+	3600 3300 3100 3300
+Wire Wire Line
+	5050 4200 5050 4000
+Wire Wire Line
+	5050 4000 3550 4000
+Wire Wire Line
+	3550 4000 3550 3400
+Wire Wire Line
+	3550 3400 3100 3400
+Wire Wire Line
+	3100 3500 3500 3500
+Wire Wire Line
+	3500 3500 3500 4750
+Wire Wire Line
+	3500 4750 5050 4750
+Wire Wire Line
+	5050 4750 5050 4600
+Wire Wire Line
+	3100 3600 3450 3600
+Wire Wire Line
+	3450 3600 3450 2350
+Wire Wire Line
+	3450 2350 7300 2350
+Wire Wire Line
+	7300 2350 7300 2600
+Wire Wire Line
+	3100 3700 3400 3700
+Wire Wire Line
+	3400 3700 3400 2300
+Wire Wire Line
+	3400 2300 7350 2300
+Wire Wire Line
+	7350 2300 7350 3000
+Wire Wire Line
+	7350 3000 7300 3000
+Wire Wire Line
+	3100 3800 3450 3800
+Wire Wire Line
+	3450 3800 3450 4800
+Wire Wire Line
+	3450 4800 7400 4800
+Wire Wire Line
+	7400 4800 7400 3400
+Wire Wire Line
+	7400 3400 7300 3400
+Wire Wire Line
+	7300 3800 7450 3800
+Wire Wire Line
+	7450 3800 7450 4850
+Wire Wire Line
+	7450 4850 3400 4850
+Wire Wire Line
+	3400 4850 3400 3900
+Wire Wire Line
+	3400 3900 3100 3900
+Wire Wire Line
+	7300 4200 7500 4200
+Wire Wire Line
+	7500 4200 7500 4900
+Wire Wire Line
+	7500 4900 3350 4900
+Wire Wire Line
+	3350 4900 3350 4000
+Wire Wire Line
+	3350 4000 3100 4000
+Wire Wire Line
+	3100 4100 3300 4100
+Wire Wire Line
+	3300 4100 3300 4950
+Wire Wire Line
+	3300 4950 7550 4950
+Wire Wire Line
+	7550 4950 7550 4600
+Wire Wire Line
+	7550 4600 7300 4600
+Wire Wire Line
+	3100 4200 3200 4200
+Wire Wire Line
+	3200 4200 3200 4300
+Wire Wire Line
+	3200 4300 3100 4300
+$Comp
+L Screw_Terminal_01x16 J1
+U 1 1 59CFBC18
+P 2900 3500
+F 0 "J1" H 2900 4300 50  0000 C CNN
+F 1 "Screw_Terminal_01x16" H 2900 2600 50  0000 C CNN
+F 2 "" H 2900 3500 50  0001 C CNN
+F 3 "" H 2900 3500 50  0001 C CNN
+	1    2900 3500
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
