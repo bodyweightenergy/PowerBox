@@ -1,4 +1,4 @@
-(module MP1584EN (layer F.Cu) (tedit 59CFFF9D)
+(module MP1584EN_TEXT (layer F.Cu) (tedit 59CFFF9D)
   (fp_text reference REF** (at 0 1.651) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
