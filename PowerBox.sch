@@ -3,7 +3,6 @@ LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -282,5 +281,27 @@ F 2 "footprints:TerminalBlock_4UCON_19963_16x3.5mm_Straight_MOD" H 2900 3500 50 
 F 3 "" H 2900 3500 50  0001 C CNN
 	1    2900 3500
 	-1   0    0    -1  
+$EndComp
+$Comp
+L SCREW_HOLE U7
+U 1 1 59DE38DB
+P 4000 5500
+F 0 "U7" H 4000 5500 60  0000 C CNN
+F 1 "SCREW_HOLE" H 4000 5500 60  0000 C CNN
+F 2 "footprints:SCREW_HOLE_0.2in-dia" H 4000 5500 60  0000 C CNN
+F 3 "" H 4000 5500 60  0000 C CNN
+	1    4000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SCREW_HOLE U8
+U 1 1 59DE3944
+P 4000 5750
+F 0 "U8" H 4000 5750 60  0000 C CNN
+F 1 "SCREW_HOLE" H 4000 5750 60  0000 C CNN
+F 2 "footprints:SCREW_HOLE_0.2in-dia" H 4000 5750 60  0000 C CNN
+F 3 "" H 4000 5750 60  0000 C CNN
+	1    4000 5750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
